@@ -36,3 +36,117 @@
     transform: rotate(360deg);
   }
 }
+
+.App__title {
+  margin-top: 5rem;
+  font-size: 50px;
+}
+
+.App__buttonPanel {
+  display: flex;
+  justify-content: center;  
+  
+}
+
+.App__Header-Button {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App__Header-Moreinfo-Button {
+  margin: 1rem;
+  background-color: white; 
+  border: black 3px solid;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.techStack__Icon {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+}
+
+.frontendwrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+}
+
+
+.App__portrait {  
+  height: 15rem;
+}
+
+.App__Project-Wrapper {
+  margin: 5rem;
+  display: flex;  
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.App__Project-Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.App__project-image {
+  height: 15rem;
+  width: 15rem;
+}
+
+.App__Project-Tech-Wrapper{
+  display: flex;
+
+}
+
+.App__Project-Tech-Item {
+  margin-right: 0.5rem;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #787978;
+}
+
+.svg {
+  height: 20%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+ }
+
+ .ProjectCard {
+   border: black solid 1px;
+   max-width: 30rem;
+   min-width: 30rem;
+   max-height: 30rem;
+   min-height: 30rem;
+   margin: 10px 30px;
+ }
+
+ .ProjectWrapper {
+   display: flex;
+   flex-direction: row;
+ }
+
+
+
+ .bigpwrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ }
+
+ 

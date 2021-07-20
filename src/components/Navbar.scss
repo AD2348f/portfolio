@@ -1,0 +1,38 @@
+.navbar{
+    width: 100%;
+    min-height: 6vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    transition: all .7s ease-in;
+  }
+  //IMPORTANT
+  .scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+  }
+  .logo img{
+    width: 50px;
+  }
+  .navigation{
+      display: flex;
+      flex-direction: row;      
+  }
+
+  a {
+    margin: 0px 5px;
+    background-color: white; 
+    border: black 3px solid;
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+
