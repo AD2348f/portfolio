@@ -131,25 +131,27 @@ ul {
  .ProjectCard {
    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
    max-width: 32rem;
-   min-width: 32rem;
-   max-height: 32rem;
-   min-height: 32rem;
+   min-width: 32rem;   
+   min-height: 35rem;
    margin: 10px 30px;
+   padding: 10px;
  }
 
  .ProjectWrapper {
    display: flex;
    flex-direction: row;
+   
  }
 
 .Project__Card-Section-Title {
   font-weight: bold;
-  margin-right: 3px;
+  margin-right: 3px;  
 }
 
 .Project__Card-Section-Wrapper {
   display: flex;
   justify-content: center;
+  margin: 10px 0px;
 }
 
 .Project__Link-Wrapper {

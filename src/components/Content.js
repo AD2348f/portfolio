@@ -25,13 +25,7 @@ return (
         <a className="App__Header-Button" href="mailto:ditz.alexander@gmx.de"><ImMail4 size={'3rem'} color={'#b80000'}/>E-Mail</a>
         <a className="App__Header-Button" href={cv} target="_blank"><ImFileEmpty size={'3rem'} color={'#008b02'}/>CV</a>        
         </div>
-        {/* <div className="App__Header-Moreinfo-Buttons-Wrapper">
-        <button className="App__Header-Moreinfo-Button" href="#techStack">Tech Stack</button>
-        <button className="App__Header-Moreinfo-Button">Projects</button>
-        <button className="App__Header-Moreinfo-Button">About me</button>
-        
-        
-        </div> */}
+    
 
 
         <div className="svg">
@@ -53,36 +47,11 @@ return (
                 <use xlinkHref="#gentle-wave" x={50} y={6} fill="#faf9f9" />
             </g>
             </svg>
-            </div>
-        
+            </div>    
      
 
 
-        
-        {/* <h2 id="projects">Projects</h2>
-        <div className="App__Project-Wrapper">
-        <div className="App__Project-Card">
-            <div className="App__Project-Title">Junior Dev Jobsearch</div>
-            <div className="App__Project-Desc">A Jobsearch Plattform fully dynamic using the MERN Stack. Full functioning registration, login, and posting function. Build as final project of my Coding School with two collegues</div>
-            <div className="App__Project-Tech-Wrapper">
-            <div className="App__Project-Tech-Item">React</div><div className="App__Project-Tech-Item">Bootstrap</div>  
-            </div>
-            <img src="https://via.placeholder.com/300.png" alt="Placeholder" className="App__project-image" />          
-        </div>
-        <div className="App__Project-Card">
-            Twitterclone
-            <div className="App__Project-Tech-Wrapper">
-            <div className="App__Project-Tech-Item">HTML 5</div><div className="App__Project-Tech-Item">CSS 3</div>
-            </div> 
-            <img src="https://via.placeholder.com/300.png" alt="Placeholder" className="App__project-image" />
-        </div>
-        
-        <div className="App__Project-Card">Awesome characters super trump / autoquartett game<img src="https://via.placeholder.com/300.png" alt="Placeholder" className="App__project-image" /></div>
-        <div className="App__Project-Card">Todo List<img src="https://via.placeholder.com/300.png" alt="Placeholder" className="App__project-image" /></div>
-        <div className="App__Project-Card">Virtual Cookbook<img src="https://via.placeholder.com/300.png" alt="Placeholder" className="App__project-image" /></div>
-        <div className="App__Project-Card">Training App<img src="https://via.placeholder.com/300.png" alt="Placeholder" className="App__project-image" /></div>
-        <div className="App__Project-Card">Portfolio<img src="https://via.placeholder.com/300.png" alt="Placeholder" className="App__project-image" /></div>
-        </div> */}
+
         
     </main>
   )
