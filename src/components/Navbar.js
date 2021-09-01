@@ -1,5 +1,9 @@
 import React,{useEffect} from 'react';
 import './Navbar.scss';
+import logo from '../pictures/Logo.png';
+
+
+
 const Navbar=() => {
   const [scrolled,setScrolled]=React.useState(false);
 const handleScroll=() => {
@@ -24,13 +28,13 @@ let navbarClasses=['navbar'];
     <header className={navbarClasses.join(" ")}>
 
     <div className="logo">
-        {/* your logo */}
+        <img src={logo} />
     </div>
     <nav className="navigation">        
         
-            <a href="#home">Home</a>
-            <a href="#techstack">Techstack</a>
-            <a href="#projects">Projects</a>            
+            <a className="Header__Button" href="#home">Home</a>
+            <a className="Header__Button" href="#techstack">Techstack</a>
+            <a className="Header__Button" href="#projects">Projects</a>            
         
     </nav>
 

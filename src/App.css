@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+h2 {
+  margin-top: 6vh;
+}
+
+.Placeholder {
+  min-height: 6vh;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -50,22 +58,15 @@
 
 .App__Header-Button {
   margin: 1rem;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  text-decoration: none;
 }
 
-.App__Header-Moreinfo-Button {
-  margin: 1rem;
-  background-color: white; 
-  border: black 3px solid;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
+
 
 .techStack__Icon {
   display: flex;
@@ -128,11 +129,11 @@ ul {
  }
 
  .ProjectCard {
-   border: black solid 1px;
-   max-width: 30rem;
-   min-width: 30rem;
-   max-height: 30rem;
-   min-height: 30rem;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   max-width: 32rem;
+   min-width: 32rem;
+   max-height: 32rem;
+   min-height: 32rem;
    margin: 10px 30px;
  }
 
@@ -141,12 +142,35 @@ ul {
    flex-direction: row;
  }
 
+.Project__Card-Section-Title {
+  font-weight: bold;
+  margin-right: 3px;
+}
 
+.Project__Card-Section-Wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.Project__Link-Wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Project__Link {
+  border: black solid 1px;
+  padding: 5px;  
+}
 
  .bigpwrap {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+ }
+
+ .App__Copyright {
+   margin-top: 5rem;
  }
 
  
