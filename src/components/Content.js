@@ -16,13 +16,13 @@ const Content=() => {
 return (
     <main className="content">
         <div className="App__title">Hi, I am Alexander Ditz,</div>
-        <h2>a Full stack web developer with a passion for frontend.</h2>      
+        <h2>a full stack web developer with a passion for frontend.</h2>      
         <img src={portrait} alt="Alexander Ditz" className="App__portrait" />      
         <div className="App__buttonPanel">
         <a className="App__Header-Button" href="https://github.com/AD2348f" target="_blank"><ImGithub size={'3rem'}/>GitHub</a>
         <a className="App__Header-Button" href="https://www.linkedin.com/in/alexander-ditz/" target="_blank"><ImLinkedin size={'3rem'} color={'#0d47a1'}/>LinkedIn</a>
         <a className="App__Header-Button" href="mailto:ditz.alexander@gmx.de"><ImMail4 size={'3rem'} color={'#b80000'}/>E-Mail</a>
-        <a className="App__Header-Button" href="" target="_blank"><ImFileEmpty size={'3rem'} color={'#008b02'}/>CV</a>        
+        <a className="App__Header-Button" href="../pictures/CV Alexander Ditz 20210901.pdf" target="_blank"><ImFileEmpty size={'3rem'} color={'#008b02'}/>CV</a>        
         </div>
         {/* <div className="App__Header-Moreinfo-Buttons-Wrapper">
         <button className="App__Header-Moreinfo-Button" href="#techStack">Tech Stack</button>

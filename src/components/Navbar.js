@@ -32,9 +32,9 @@ let navbarClasses=['navbar'];
     </div>
     <nav className="navigation">        
         
-            <a className="Header__Button" href="#home">Home</a>
+            <a className="Header__Button" href="#home">Home</a>            
+            <a className="Header__Button" href="#projects">Projects</a>
             <a className="Header__Button" href="#techstack">Techstack</a>
-            <a className="Header__Button" href="#projects">Projects</a>            
         
     </nav>
 
